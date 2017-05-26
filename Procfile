@@ -1,3 +1,1 @@
-web: ruby server.rb -p $PORT
-
-web: ./bin/www npm start
+web: bundle exec ruby server.rb -p $PORT
