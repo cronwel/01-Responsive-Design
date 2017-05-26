@@ -4,9 +4,9 @@
   padding: 0;
 }
 body {
-  background: #015689;
+  background: #113882;
   font: 14px/20px Arial, San-Serif;
-  color: #fff;
+  color: #ffffff;
   margin: 0;
 }
 h1 {
@@ -34,6 +34,8 @@ img {
   width: auto;
   position: relative;
   z-index: -1;
+  border: 2px solid white;
+
 }
 a {
   color: #fff;
@@ -45,7 +47,7 @@ a:hover {
   text-decoration: underline;
 }
 header {
-  background: #7788EE;
+  background: #000000;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -53,28 +55,50 @@ header {
   left: 0;
   z-index: 100%;
   opacity: .90;
+  border-bottom: 2px solid black;
+  font-family: "Poiret One", cursive;
+
 }
 
 #logo {
-  margin: 20px;
+  margin: 10px;
   float: left;
   width: 125px;
   height: auto;
   background: no-repeat center;
 }
 nav {
-  float: right;
-  padding: 35px 20px 20px 0;
+  float: left;
+  padding: 10px;
 }
-nav h1 {
+/*nav h1 {
   position: fixed;
   z-index: -1;
-  display:inline-block;
+  display:inline-flex;
   padding: 20%;
   line-height: 10%;
   float: left;
-}
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}*/
+nav {
+  align-items: center;
+  border-width: 2px;
+  border-bottom: 2px solid #ffffff;
+  position: fixed;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  display: inline-flex;
+  width: 100%;
+  padding: 1px;
+  justify-content: space-between;
+  list-style: none;
 
+}
 
 #menu-icon {
   display: hidden;
@@ -94,10 +118,19 @@ nav ul li {
   padding: 10px;
 
 }
+nav h1, h2 {
+  display:
+  position: static;
+  z-index: 100%;
+
+
+}
+
 .current {
   color: #fff;
   text-decoration: underline;
 }
+
 
 #doc {
   margin: 40px 0;
@@ -105,12 +138,12 @@ nav ul li {
 
 #content {
   margin: 0 auto;
-  max-width: 1140px;
-  margin-top: 100px;
+  max-width: 1920px;
+  margin-top: 60px;
 }
 .blueberry {
-  max-width: 960px;
-  margin-top: 110px;
+  max-width: 1920px;
+  margin-top: 82px;
 }
 section {
   width: 29%;
@@ -137,8 +170,8 @@ aside {
   padding: 3%;
 }
 
-.hours li {
-  padding-left: 3%;
+.hours {
+  padding-left: 1%;
 }
 
 footer {
@@ -171,15 +204,20 @@ footer {
 @media screen and (max-width: 478px) {
   body {
     position: absolute;
+    color: black;
   }
 }
 @media screen and (max-width: 740px) {
-  heaer {
+  header {
+    position: fixed;
+    background: #000000;
+    color: white;
+  }
+  body {
     position: absolute;
+    color: black;
   }
-  #menu-icon {
-    display: inline-block;
-  }
+
   nav ul, nav:active ul {
     display: none;
     position: absolute;
@@ -196,16 +234,23 @@ footer {
     width: 100%;
     padding: 10px 0;
     margin: 0;
+
   }
   nav:hover ul {
     display: block;
 
+  }
+  #menu-icon {
+    display: inline-block;
+    z-index: 100%;
   }
   section {
     float: left;
     width: 100%;
     margin: 0;
     padding: 0;
+    border: 2px solid white;
+    background-color: white;
   }
   article {
     float: left;
@@ -218,6 +263,10 @@ footer {
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+  footer {
+    background: #222222;
+    overflow: scroll;
   }
   .bottom {
     max-width: 25%;

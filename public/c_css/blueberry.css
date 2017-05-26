@@ -11,9 +11,11 @@
 	overflow: hidden;
 }
 .blueberry .slides li img {
-	display: block;
+	display: inline;
 	width: 100%;
 	max-width: none;
+	border: 2px solid white;
+	
 }
 .blueberry .slides li.active { display: block; position: relative; }
 .blueberry .crop li img { width: auto; }
