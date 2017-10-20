@@ -59,7 +59,6 @@ header {
   font-family: "Poiret One", cursive;
 
 }
-
 #logo {
   margin: 10px;
   float: left;
@@ -71,18 +70,6 @@ nav {
   float: left;
   padding: 10px;
 }
-/*nav h1 {
-  position: fixed;
-  z-index: -1;
-  display:inline-flex;
-  padding: 20%;
-  line-height: 10%;
-  float: left;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-}*/
 nav {
   align-items: center;
   border-width: 2px;
@@ -97,9 +84,7 @@ nav {
   padding: 1px;
   justify-content: space-between;
   list-style: none;
-
 }
-
 #menu-icon {
   display: hidden;
   width: 40px;
@@ -116,26 +101,19 @@ nav ul li {
   display: inline-block;
   float: left;
   padding: 10px;
-
 }
 nav h1, h2 {
   display:
   position: static;
   z-index: 100%;
-
-
 }
-
 .current {
   color: #fff;
   text-decoration: underline;
 }
-
-
 #doc {
   margin: 40px 0;
 }
-
 #content {
   margin: 0 auto;
   max-width: 1920px;
@@ -161,7 +139,6 @@ article {
   height: auto;
   padding: 4%;
 }
-
 aside {
   float: right;
   margin: 0 auto;
@@ -169,11 +146,9 @@ aside {
   height: auto;
   padding: 3%;
 }
-
 .hours {
   padding-left: 1%;
 }
-
 footer {
   background: #222222;
   width: 100%;
@@ -188,10 +163,6 @@ footer {
    color: #fff;
    text-decoration: none;
  }
-
-/*ul.social li {
-  display: inline;
-}*/
 .second {
   border-top: 1px solid #000000;
   max-height: 50px;
@@ -199,7 +170,6 @@ footer {
   opacity: .95;
   background: #7788EE;
 }
-
 /*MEDIA------------------------------------*/
 @media screen and (max-width: 478px) {
   body {
@@ -217,7 +187,6 @@ footer {
     position: absolute;
     color: black;
   }
-
   nav ul, nav:active ul {
     display: none;
     position: absolute;
@@ -234,11 +203,9 @@ footer {
     width: 100%;
     padding: 10px 0;
     margin: 0;
-
   }
   nav:hover ul {
     display: block;
-
   }
   #menu-icon {
     display: inline-block;

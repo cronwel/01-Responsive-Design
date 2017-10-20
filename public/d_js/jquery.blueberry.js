@@ -1,7 +1,7 @@
+
 (function($){
 	$.fn.extend({
 		blueberry: function(options) {
-
 			//default values for plugin options
 			var defaults = {
 				interval: 5000,
