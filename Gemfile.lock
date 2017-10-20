@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    jquery (0.0.1)
     mustermann (1.0.0)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -16,10 +17,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jquery
   sinatra
 
 RUBY VERSION
    ruby 2.3.4p301
 
 BUNDLED WITH
-   1.15.0
+   1.16.0.pre.3
